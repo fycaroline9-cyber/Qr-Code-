@@ -1,2 +1,2 @@
 # Qr-Code-
-tentativa de criar u, gerador de QR Code
+tentativa de criar um gerador de QR Code
