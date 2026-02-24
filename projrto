@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de QRcode</title>
+    <link rel="stylesheet" href="style.css">
+    <head>
+<body>
+<head>
+    <body>
+        <div class="card">
+            <h1>QR Code Generator</h1>
+            <p>Transforme links em codigos instantanios</p>
+          
+            <form method="POST">
+                <input type="text" name="link" placeholder="Insira o link ou texto" required>
+                <button type="submit">Gerar QR Code</button>
+            </form>
+
+        </div>
+    </body>
+</head>
+</html>
+
+
+  #css
+ body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(112, 29, 57);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+ }
+
+ .card{
+    background-color: palevioletred;
+    padding: 50px;
+    border-radius: 0 50px 30px rgba(0,0,0,0,1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+ }
+
+ h1{
+    color: rgb(14, 12, 12);
+    margin-bottom: 20px;
+    font-size: 24px;
+ }
+
+ input[type="text"] {
+    border-color: black;
+    outline: none;
+ }
+
+ button{
+    width: 100%;
+    padding: 12px;
+    background-color: rgb(148, 85, 148);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+ }
+
+button:hover{
+    background-color: blue;
+}
+
+.qr-result{
+    margin-top: 25px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+}
+
+
+
+
+
+
+
